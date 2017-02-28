@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{51FBCA67-14E9-13E7-401A-05314210AE86}") = "Splitscreen", "Assembly-CSharp.csproj", "{44BF38F9-1E9D-2B1F-EE6F-8E4B50CD493B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44BF38F9-1E9D-2B1F-EE6F-8E4B50CD493B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44BF38F9-1E9D-2B1F-EE6F-8E4B50CD493B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44BF38F9-1E9D-2B1F-EE6F-8E4B50CD493B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44BF38F9-1E9D-2B1F-EE6F-8E4B50CD493B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
