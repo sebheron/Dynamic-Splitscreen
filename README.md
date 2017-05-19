@@ -1,7 +1,6 @@
 # Dynamic Splitscreen
 A simple variation of the commonly used dynamic splitscreen, popularized by the LEGO games, implemented in unity!
-![](http://i.imgur.com/Exwl8tQ.gif)
-![](http://i.imgur.com/KvSMFAC.gif)
+<img src="ExampleGifs/example1.gif" width="400"><img src="ExampleGifs/example2.gif" width="400">
 
 ## The MIT License (MIT)
 
