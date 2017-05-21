@@ -58,7 +58,7 @@ public class SplitScreen : MonoBehaviour {
 		split.layer = LayerMask.NameToLayer ("TransparentFX");
 	}
 
-	void FixedUpdate () {
+	void LateUpdate () {
 		//Gets the z axis distance between the two players and just the standard distance.
 		float zDistance = player1.position.z - player2.transform.position.z;
 		float distance = Vector3.Distance (player1.position, player2.transform.position);
