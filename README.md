@@ -1,3 +1,5 @@
+*Created by Swegrock (alias: Craftmuch)*
+
 # Dynamic Splitscreen
 A simple variation of the commonly used dynamic splitscreen, popularized by the LEGO games, implemented in unity!
 <img src="ExampleGifs/example1.gif" width="400"><img src="ExampleGifs/example2.gif" width="400">
