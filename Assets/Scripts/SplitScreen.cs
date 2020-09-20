@@ -27,10 +27,14 @@ public class SplitScreen : MonoBehaviour {
 	void Start () {
 		//Referencing camera1 and initalizing camera2.
 		camera1 = Camera.main.gameObject;
-		camera2 = new GameObject ();
-		camera2.AddComponent<Camera> ();
+		Camera c1 = camera1.GetComponent<Camera>();
+		camera2 = new GameObject("Generated Splitscreen Camera");
+		Camera c2 = camera2.AddComponent<Camera>();
+
+		// Ensure the second camera renders before the first one
+		c2.depth = c1.depth - 1;
 		//Setting up the culling mask of camera2 to ignore the layer "TransparentFX" as to avoid rendering the split and splitter on both cameras.
-		camera2.GetComponent<Camera> ().cullingMask = ~(1 << LayerMask.NameToLayer ("TransparentFX"));
+		c2.cullingMask = ~(1 << LayerMask.NameToLayer("TransparentFX"));
 
 		//Setting up the splitter and initalizing the gameobject.
 		splitter = GameObject.CreatePrimitive (PrimitiveType.Quad);
@@ -43,7 +47,7 @@ public class SplitScreen : MonoBehaviour {
 		//Setting up the split and initalizing the gameobject.
 		split = GameObject.CreatePrimitive (PrimitiveType.Quad);
 		split.transform.parent = splitter.transform;
-		split.transform.localPosition = new Vector3 (0,-(1/(splitterWidth/10)),0);
+		split.transform.localPosition = new Vector3(0, -(1 / (splitterWidth / 10)), 0.0001f); // Add a little bit of Z-distance to avoid clipping with splitter
 		split.transform.localScale = new Vector3 (1, 2/(splitterWidth/10), 1);
 		split.transform.localEulerAngles = Vector3.zero;
 
