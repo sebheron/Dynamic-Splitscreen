@@ -1,4 +1,5 @@
-*Created by Swegrock (alias: Craftmuch)*
+*Created by Swegrock*
+*Updated by jcjveraa for Unity 2019.4.10+*
 
 # Dynamic Splitscreen
 A simple variation of the commonly used dynamic splitscreen, popularized by the LEGO games, implemented in unity!
