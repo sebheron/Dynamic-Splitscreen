@@ -5,6 +5,9 @@
 A simple variation of the commonly used dynamic splitscreen, popularized by the LEGO games, implemented in unity!
 <img src="ExampleGifs/example1.gif" width="400"><img src="ExampleGifs/example2.gif" width="400">
 
+## URP Version
+mjcguada is working on a URP version of Dynamic Splitscreen you can find <a href="https://github.com/mjcguada/DynamicSplitScreenURP">here</a> and follow the project for updates.
+
 ## The MIT License (MIT)
 
 Copyright © <year> <copyright holders>
